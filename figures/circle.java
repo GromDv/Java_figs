@@ -2,10 +2,10 @@ package figures;
 
 import ifaces.rounds;
 
-public class circles extends baseFig implements rounds {
+public class circle extends baseFig implements rounds {
     private float radius;
 
-    public circles(float r) {
+    public circle(float r) {
         this.radius = r;
     }
 

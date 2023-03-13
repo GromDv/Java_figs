@@ -1,8 +1,8 @@
 package figures;
 
-public class squares extends polygones {
+public class square extends polygones {
 
-    public squares(float[] sides) {
+    public square(float[] sides) {
         super(sides);
     }
 

@@ -1,8 +1,8 @@
 package figures;
 
-public class rectangles extends polygones {
+public class rectangle extends polygones {
 
-    public rectangles(float[] sides) {
+    public rectangle(float[] sides) {
         super(sides);
     }
 

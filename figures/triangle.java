@@ -1,8 +1,8 @@
 package figures;
 
-public class triangles extends polygones {
+public class triangle extends polygones {
 
-    public triangles(float[] sd) {
+    public triangle(float[] sd) {
         super(sd);
     }
 
