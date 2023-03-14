@@ -4,6 +4,8 @@ public class triangle extends polygones {
 
     public triangle(float[] sd) {
         super(sd);
+        if (sd[0] >= sd[1] + sd[2] || sd[1] >= sd[0] + sd[2] || sd[2] >= sd[1] + sd[0])
+            System.out.println("С таким набором сторон треугольник создать невозможно!");
     }
 
     @Override
@@ -29,7 +31,8 @@ public class triangle extends polygones {
 
     @Override
     public String toString() {
-        return String.format("Треугольник, Стороны: %s, Площадь: %.2f Периметр: %.2f", super.toString(), this.getArea(), this.getPerimetr());
+        return String.format("Треугольник, Стороны: %s, Площадь: %.2f Периметр: %.2f", super.toString(), this.getArea(),
+                this.getPerimetr());
     }
 
     @Override

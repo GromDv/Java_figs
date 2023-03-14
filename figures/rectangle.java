@@ -4,6 +4,8 @@ public class rectangle extends polygones {
 
     public rectangle(float[] sides) {
         super(sides);
+        if (sides[0] == sides[1])
+            System.out.println("С таким набором сторон - это квадрат!");
     }
 
     @Override
